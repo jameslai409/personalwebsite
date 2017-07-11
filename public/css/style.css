@@ -1,0 +1,82 @@
+body {
+  display: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.title {
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1.title {
+  font-weight: bold;
+  text-transform: uppercase !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 10vw;
+  background: #455a64;
+  color: #ffd54f;
+  width: 100%;
+  height: 400px;
+  line-height: 400px;
+
+}
+
+h1.league {
+  font-weight: bold;
+  text-transform: uppercase !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5vw;
+  background: black;
+  color: orange;
+  width: 100%;
+
+
+}
+
+.footercolor {
+  background: #455a64 !important;
+}
+
+.background {
+
+  background: #455a64;
+  font-weight: bold;
+
+}
+
+.bo {
+  background: black;
+  color: orange;
+}
+
+.textoftop a {
+  color: silver !important;
+  font-weight: bold;
+}
+
+#sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 990;
+  will-change: opacity;
+}
+
+ul.with-bullets li {
+  list-style-type: circle !important;
+}
